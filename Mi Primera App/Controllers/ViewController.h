@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+// MARK: - Outlets
+
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+// MARK: - Actions
+
+- (IBAction)showMessage:(UIButton *)sender;
 
 @end
 

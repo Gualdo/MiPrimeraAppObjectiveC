@@ -101,13 +101,9 @@
 		A32BA3B81FCC851000AEBBA9 /* Mi Primera App */ = {
 			isa = PBXGroup;
 			children = (
-				A32BA3B91FCC851000AEBBA9 /* AppDelegate.h */,
-				A32BA3BA1FCC851000AEBBA9 /* AppDelegate.m */,
-				A32BA3BC1FCC851000AEBBA9 /* ViewController.h */,
-				A32BA3BD1FCC851000AEBBA9 /* ViewController.m */,
-				A32BA3BF1FCC851000AEBBA9 /* Main.storyboard */,
-				A32BA3C21FCC851000AEBBA9 /* Assets.xcassets */,
-				A32BA3C41FCC851000AEBBA9 /* LaunchScreen.storyboard */,
+				A32BA3EC1FCC958C00AEBBA9 /* Application */,
+				A32BA3EB1FCC957400AEBBA9 /* Controllers */,
+				A32BA3ED1FCC95AF00AEBBA9 /* Resourses */,
 				A32BA3C71FCC851000AEBBA9 /* Info.plist */,
 				A32BA3C81FCC851000AEBBA9 /* main.m */,
 			);
@@ -130,6 +126,42 @@
 				A32BA3DF1FCC851000AEBBA9 /* Info.plist */,
 			);
 			path = "Mi Primera AppUITests";
+			sourceTree = "<group>";
+		};
+		A32BA3EB1FCC957400AEBBA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A32BA3BC1FCC851000AEBBA9 /* ViewController.h */,
+				A32BA3BD1FCC851000AEBBA9 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A32BA3EC1FCC958C00AEBBA9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A32BA3B91FCC851000AEBBA9 /* AppDelegate.h */,
+				A32BA3BA1FCC851000AEBBA9 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A32BA3ED1FCC95AF00AEBBA9 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				A32BA3EE1FCC95C100AEBBA9 /* UI */,
+				A32BA3C21FCC851000AEBBA9 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		A32BA3EE1FCC95C100AEBBA9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A32BA3C41FCC851000AEBBA9 /* LaunchScreen.storyboard */,
+				A32BA3BF1FCC851000AEBBA9 /* Main.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,10 +465,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 273FZ5G5B8;
 				INFOPLIST_FILE = "Mi Primera App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-Primera-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,10 +480,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 273FZ5G5B8;
 				INFOPLIST_FILE = "Mi Primera App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Mi-Primera-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
